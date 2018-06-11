@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html><head><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>Tweets for the query "Fury+Seferi" from: World,latitude=7.2696195,longitude=22,radius=7252.2km</title>
+<style> html, body {height: 100%; margin: 0; padding: 0;} #map {height: 100%;}
+        #legend {background: white; padding: 10px; margin: 10px; border: 1px solid black}</style>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("visualization", "1", {packages: ["corechart"]});</script>
+</head>
+<body>
+<div id="map"></div> <script>
+var map = undefined;
+var markers = [];
+var curr_marker = null;
+var latlngs = [];
+var freq_chart_data = {};
+function initMap() { var myCenter = {lat:7.2696195,lng:22}
+map = new google.maps.Map(document.getElementById("map"), { zoom: 4, center: myCenter});
+var zm = map.getZoom();
+latlngs[0] = new google.maps.LatLng(55.4428583442,-3.0416065075);
+markers[0] = new google.maps.Marker({position: latlngs[0], map: map, url: "https://twitter.com/statuses/1005744387530215424",title:" Tyson >>Fury<<: >>Seferi<< Didn t Come To Fight, He Came To Run Around https://t.co/0fNupRrMwH https://t.co/74C098mg3A "});
+markers[0]['uns_icon'] = "img/disapointed.png";
+markers[0]['sel_icon'] = "img/disapointed_sel.png";
+markers[0].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[0]['emo'] = "disapointed";
+markers[0]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b>: <b><i>Seferi</i></b> Didn t Come To Fight  He Came To Run Around https://t.co/0fNupRrMwH https://t.co/74C098mg3A</br>Category: disapointed</br>Created at: Sun Jun 10 09:32:02 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 1";
+markers[0]['liked'] = 0;
+markers[0]['retweeted'] = 1;
+markers[0]['created_at'] = "Sun Jun 10 09:32:02 +0000 2018";
+var datetime = new Date("Sun Jun 10 09:32:02 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[1] = new google.maps.LatLng(54.0711163973,-2.46779902041);
+markers[1] = new google.maps.Marker({position: latlngs[1], map: map, url: "https://twitter.com/statuses/1005743814080950272",title:" Tyson >>Fury<<: >>Seferi<< Didn t Come To Fight, He Came To Run Around https://t.co/oVceMKZtzl https://t.co/F4fYDrCv75 🐵 "});
+markers[1]['uns_icon'] = "img/disapointed.png";
+markers[1]['sel_icon'] = "img/disapointed_sel.png";
+markers[1].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[1]['emo'] = "disapointed";
+markers[1]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b>: <b><i>Seferi</i></b> Didn t Come To Fight  He Came To Run Around https://t.co/oVceMKZtzl https://t.co/F4fYDrCv75 🐵</br>Category: disapointed</br>Created at: Sun Jun 10 09:29:45 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[1]['liked'] = 0;
+markers[1]['retweeted'] = 0;
+markers[1]['created_at'] = "Sun Jun 10 09:29:45 +0000 2018";
+var datetime = new Date("Sun Jun 10 09:29:45 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[2] = new google.maps.LatLng(54.7955281319,-3.68410975742);
+markers[2] = new google.maps.Marker({position: latlngs[2], map: map, url: "https://twitter.com/statuses/1005726789623320576",title:" That >>Fury<< / >>Seferi<< fight (while being obviously a bit shit) was weirdly entertaining. It was just odd.  #FurySeferi "});
+markers[2]['uns_icon'] = "img/angry.png";
+markers[2]['sel_icon'] = "img/angry_sel.png";
+markers[2].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[2]['emo'] = "angry";
+markers[2]['html_text'] = "Tweet: That <b><i>Fury</i></b> / <b><i>Seferi</i></b> fight (while being obviously a bit shit) was weirdly entertaining. It was just odd.  #FurySeferi</br>Category: angry</br>Created at: Sun Jun 10 08:22:06 +0000 2018</br>Place: UK latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[2]['liked'] = 0;
+markers[2]['retweeted'] = 0;
+markers[2]['created_at'] = "Sun Jun 10 08:22:06 +0000 2018";
+var datetime = new Date("Sun Jun 10 08:22:06 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[3] = new google.maps.LatLng(58.0176872617,-5.06780360558);
+markers[3] = new google.maps.Marker({position: latlngs[3], map: map, url: "https://twitter.com/statuses/1005701606309089281",title:" I wonder if >>Fury<< + >>Seferi<< woke up in bed together this morning.  #FurySeferi "});
+markers[3]['uns_icon'] = "img/disapointed.png";
+markers[3]['sel_icon'] = "img/disapointed_sel.png";
+markers[3].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[3]['emo'] = "disapointed";
+markers[3]['html_text'] = "Tweet: I wonder if <b><i>Fury</i></b> + <b><i>Seferi</i></b> woke up in bed together this morning.  #FurySeferi</br>Category: disapointed</br>Created at: Sun Jun 10 06:42:02 +0000 2018</br>Place: latitude:57.4479425 longitude:-4.274143</br>Likes: 0</br>Retweets: 0";
+markers[3]['liked'] = 0;
+markers[3]['retweeted'] = 0;
+markers[3]['created_at'] = "Sun Jun 10 06:42:02 +0000 2018";
+var datetime = new Date("Sun Jun 10 06:42:02 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[4] = new google.maps.LatLng(55.8551889651,-4.56658964513);
+markers[4] = new google.maps.Marker({position: latlngs[4], map: map, url: "https://twitter.com/statuses/1005677149511184384",title:" Caught the >>Fury<<->>Seferi<< bout there. Had very much a carnival type feel to it. Good to see Tyson back and obviously m… https://t.co/kSj51ntDCh "});
+markers[4]['uns_icon'] = "img/satisfied.png";
+markers[4]['sel_icon'] = "img/satisfied_sel.png";
+markers[4].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[4]['emo'] = "satisfied";
+markers[4]['html_text'] = "Tweet: Caught the <b><i>Fury</i></b>-<b><i>Seferi</i></b> bout there. Had very much a carnival type feel to it. Good to see Tyson back and obviously m… https://t.co/kSj51ntDCh</br>Category: satisfied</br>Created at: Sun Jun 10 05:04:51 +0000 2018</br>Place: Stirling  Scotland latitude:56.1181242 longitude:-3.9360012</br>Likes: 0</br>Retweets: 0";
+markers[4]['liked'] = 0;
+markers[4]['retweeted'] = 0;
+markers[4]['created_at'] = "Sun Jun 10 05:04:51 +0000 2018";
+var datetime = new Date("Sun Jun 10 05:04:51 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[5] = new google.maps.LatLng(51.2245267393,-0.833224360513);
+markers[5] = new google.maps.Marker({position: latlngs[5], map: map, url: "https://twitter.com/statuses/1005598029532057600",title:" I can’t believe some people paid to go watch >>Fury<</>>Seferi<< fight. Seriously? What is wrong with people? What an absol… https://t.co/CO5xwIEUcQ "});
+markers[5]['uns_icon'] = "img/angry.png";
+markers[5]['sel_icon'] = "img/angry_sel.png";
+markers[5].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[5]['emo'] = "angry";
+markers[5]['html_text'] = "Tweet: I can’t believe some people paid to go watch <b><i>Fury</i></b>/<b><i>Seferi</i></b> fight. Seriously? What is wrong with people? What an absol… https://t.co/CO5xwIEUcQ</br>Category: angry</br>Created at: Sat Jun 09 23:50:28 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[5]['liked'] = 0;
+markers[5]['retweeted'] = 0;
+markers[5]['created_at'] = "Sat Jun 09 23:50:28 +0000 2018";
+var datetime = new Date("Sat Jun 09 23:50:28 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[6] = new google.maps.LatLng(55.0366041332,-4.06356355366);
+markers[6] = new google.maps.Marker({position: latlngs[6], map: map, url: "https://twitter.com/statuses/1005591066588872705",title:" Everyone slating >>Fury<<...>>Seferi<< was 23-1 with 21 KO s before tonight. >>Fury<< danced and sang on his way to the ring, w… https://t.co/Jr3KP8G2fR "});
+markers[6]['uns_icon'] = "img/satisfied.png";
+markers[6]['sel_icon'] = "img/satisfied_sel.png";
+markers[6].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[6]['emo'] = "satisfied";
+markers[6]['html_text'] = "Tweet: Everyone slating <b><i>Fury</i></b>...<b><i>Seferi</i></b> was 23-1 with 21 KO s before tonight. <b><i>Fury</i></b> danced and sang on his way to the ring  w… https://t.co/Jr3KP8G2fR</br>Category: satisfied</br>Created at: Sat Jun 09 23:22:47 +0000 2018</br>Place: Glasgow  Scotland latitude:55.856656 longitude:-4.2435817</br>Likes: 0</br>Retweets: 0";
+markers[6]['liked'] = 0;
+markers[6]['retweeted'] = 0;
+markers[6]['created_at'] = "Sat Jun 09 23:22:47 +0000 2018";
+var datetime = new Date("Sat Jun 09 23:22:47 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[7] = new google.maps.LatLng(54.8330092754,-4.89311380631);
+markers[7] = new google.maps.Marker({position: latlngs[7], map: map, url: "https://twitter.com/statuses/1005581770618785792",title:" Even those two junkies in Bute Hall were a better spectacle than the >>Fury<<->>Seferi<< fight "});
+markers[7]['uns_icon'] = "img/angry.png";
+markers[7]['sel_icon'] = "img/angry_sel.png";
+markers[7].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[7]['emo'] = "angry";
+markers[7]['html_text'] = "Tweet: Even those two junkies in Bute Hall were a better spectacle than the <b><i>Fury</i></b>-<b><i>Seferi</i></b> fight</br>Category: angry</br>Created at: Sat Jun 09 22:45:51 +0000 2018</br>Place: latitude:55.796184 longitude:-4.3932845</br>Likes: 0</br>Retweets: 0";
+markers[7]['liked'] = 0;
+markers[7]['retweeted'] = 0;
+markers[7]['created_at'] = "Sat Jun 09 22:45:51 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:45:51 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[8] = new google.maps.LatLng(53.6156594136,-1.6864240519);
+markers[8] = new google.maps.Marker({position: latlngs[8], map: map, url: "https://twitter.com/statuses/1005579417731698688",title:" @MichellePhelps @Tyson_Fury >>Seferi<< had a big wager on the fight finishing in 4, pathetic!! "});
+markers[8]['uns_icon'] = "img/satisfied.png";
+markers[8]['sel_icon'] = "img/satisfied_sel.png";
+markers[8].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[8]['emo'] = "satisfied";
+markers[8]['html_text'] = "Tweet: @MichellePhelps @Tyson_Fury <b><i>Seferi</i></b> had a big wager on the fight finishing in 4  pathetic!!</br>Category: satisfied</br>Created at: Sat Jun 09 22:36:30 +0000 2018</br>Place: Chesterfield latitude:53.2352134 longitude:-1.4264096</br>Likes: 0</br>Retweets: 0";
+markers[8]['liked'] = 0;
+markers[8]['retweeted'] = 0;
+markers[8]['created_at'] = "Sat Jun 09 22:36:30 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:36:30 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[9] = new google.maps.LatLng(51.2024577326,0.511901880325);
+markers[9] = new google.maps.Marker({position: latlngs[9], map: map, url: "https://twitter.com/statuses/1005579269240696834",title:" More punches here than the >>Fury<</>>Seferi<< Fight 😂🙈 https://t.co/WBmipB8HLj "});
+markers[9]['uns_icon'] = "img/satisfied.png";
+markers[9]['sel_icon'] = "img/satisfied_sel.png";
+markers[9].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[9]['emo'] = "satisfied";
+markers[9]['html_text'] = "Tweet: More punches here than the <b><i>Fury</i></b>/<b><i>Seferi</i></b> Fight 😂🙈 https://t.co/WBmipB8HLj</br>Category: satisfied</br>Created at: Sat Jun 09 22:35:55 +0000 2018</br>Place: latitude:51.604519 longitude:-0.18576</br>Likes: 0</br>Retweets: 0";
+markers[9]['liked'] = 0;
+markers[9]['retweeted'] = 0;
+markers[9]['created_at'] = "Sat Jun 09 22:35:55 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:35:55 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[10] = new google.maps.LatLng(51.8505813954,0.22385718698);
+markers[10] = new google.maps.Marker({position: latlngs[10], map: map, url: "https://twitter.com/statuses/1005574510131732485",title:" @frankwarren_tv @Tyson_Fury >>Seferi<< was shit. I don t mind seeing him fight someone shit as a comeback fight but nex… https://t.co/xYPm6pcmak "});
+markers[10]['uns_icon'] = "img/sad.png";
+markers[10]['sel_icon'] = "img/sad_sel.png";
+markers[10].setIcon({url:"img/sad.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[10]['emo'] = "sad";
+markers[10]['html_text'] = "Tweet: @frankwarren_tv @Tyson_Fury <b><i>Seferi</i></b> was shit. I don t mind seeing him fight someone shit as a comeback fight but nex… https://t.co/xYPm6pcmak</br>Category: sad</br>Created at: Sat Jun 09 22:17:00 +0000 2018</br>Place: England latitude:52.7954791 longitude:-0.540240236617432</br>Likes: 0</br>Retweets: 0";
+markers[10]['liked'] = 0;
+markers[10]['retweeted'] = 0;
+markers[10]['created_at'] = "Sat Jun 09 22:17:00 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:17:00 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[11] = new google.maps.LatLng(54.0136416168,-0.120080263228);
+markers[11] = new google.maps.Marker({position: latlngs[11], map: map, url: "https://twitter.com/statuses/1005574179599671298",title:" >>Fury<< >>Seferi<< goes down as possibly the greatest fight of all time unbelievable #SouthgateOut "});
+markers[11]['uns_icon'] = "img/angry.png";
+markers[11]['sel_icon'] = "img/angry_sel.png";
+markers[11].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[11]['emo'] = "angry";
+markers[11]['html_text'] = "Tweet: <b><i>Fury</i></b> <b><i>Seferi</i></b> goes down as possibly the greatest fight of all time unbelievable #SouthgateOut</br>Category: angry</br>Created at: Sat Jun 09 22:15:41 +0000 2018</br>Place: Newark Notts latitude:53.1136357 longitude:-0.984011952185625</br>Likes: 0</br>Retweets: 0";
+markers[11]['liked'] = 0;
+markers[11]['retweeted'] = 0;
+markers[11]['created_at'] = "Sat Jun 09 22:15:41 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:15:41 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[12] = new google.maps.LatLng(52.6316667273,-1.31913341543);
+markers[12] = new google.maps.Marker({position: latlngs[12], map: map, url: "https://twitter.com/statuses/1005573779781750784",title:" @Tyson_Fury VS Sefer >>Seferi<< summary  Round 1 - Dance Off Round 2 - >>Fury<< watches the crowd for tips on how to throw… https://t.co/yX1eh5F2fx "});
+markers[12]['uns_icon'] = "img/satisfied.png";
+markers[12]['sel_icon'] = "img/satisfied_sel.png";
+markers[12].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[12]['emo'] = "satisfied";
+markers[12]['html_text'] = "Tweet: @Tyson_Fury VS Sefer <b><i>Seferi</i></b> summary  Round 1 - Dance Off Round 2 - <b><i>Fury</i></b> watches the crowd for tips on how to throw… https://t.co/yX1eh5F2fx</br>Category: satisfied</br>Created at: Sat Jun 09 22:14:06 +0000 2018</br>Place: Wolverhampton latitude:52.5847651 longitude:-2.127567</br>Likes: 0</br>Retweets: 0";
+markers[12]['liked'] = 0;
+markers[12]['retweeted'] = 0;
+markers[12]['created_at'] = "Sat Jun 09 22:14:06 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:14:06 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[13] = new google.maps.LatLng(51.8522897978,6.37113281915);
+markers[13] = new google.maps.Marker({position: latlngs[13], map: map, url: "https://twitter.com/statuses/1005573457113944065",title:" Twice as many punches thrown here as in that >>Fury<<->>Seferi<< “fight” https://t.co/DQKK1wR39a "});
+markers[13]['uns_icon'] = "img/angry.png";
+markers[13]['sel_icon'] = "img/angry_sel.png";
+markers[13].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[13]['emo'] = "angry";
+markers[13]['html_text'] = "Tweet: Twice as many punches thrown here as in that <b><i>Fury</i></b>-<b><i>Seferi</i></b> “fight” https://t.co/DQKK1wR39a</br>Category: angry</br>Created at: Sat Jun 09 22:12:49 +0000 2018</br>Place: North West  England latitude:51.3351685 longitude:7.26320898126877</br>Likes: 0</br>Retweets: 0";
+markers[13]['liked'] = 0;
+markers[13]['retweeted'] = 0;
+markers[13]['created_at'] = "Sat Jun 09 22:12:49 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:12:49 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[14] = new google.maps.LatLng(55.6132325706,-3.25212918951);
+markers[14] = new google.maps.Marker({position: latlngs[14], map: map, url: "https://twitter.com/statuses/1005571566594347008",title:" How does Frank Warren get away with that shite? #>>fury<< #>>seferi<< "});
+markers[14]['uns_icon'] = "img/angry.png";
+markers[14]['sel_icon'] = "img/angry_sel.png";
+markers[14].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[14]['emo'] = "angry";
+markers[14]['html_text'] = "Tweet: How does Frank Warren get away with that shite? #<b><i>fury</i></b> #<b><i>seferi</i></b></br>Category: angry</br>Created at: Sat Jun 09 22:05:18 +0000 2018</br>Place: UK latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[14]['liked'] = 0;
+markers[14]['retweeted'] = 0;
+markers[14]['created_at'] = "Sat Jun 09 22:05:18 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:05:18 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[15] = new google.maps.LatLng(57.0900224856,-4.34487449759);
+markers[15] = new google.maps.Marker({position: latlngs[15], map: map, url: "https://twitter.com/statuses/1005571393856163840",title:" Jesus Christ!! >>Fury<< + >>Seferi<< all over each other!! Not far off gay porn ere 4 fuck sake😂 #FurySeferi "});
+markers[15]['uns_icon'] = "img/angry.png";
+markers[15]['sel_icon'] = "img/angry_sel.png";
+markers[15].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[15]['emo'] = "angry";
+markers[15]['html_text'] = "Tweet: Jesus Christ!! <b><i>Fury</i></b> + <b><i>Seferi</i></b> all over each other!! Not far off gay porn ere 4 fuck sake😂 #FurySeferi</br>Category: angry</br>Created at: Sat Jun 09 22:04:37 +0000 2018</br>Place: latitude:57.4479425 longitude:-4.274143</br>Likes: 0</br>Retweets: 0";
+markers[15]['liked'] = 0;
+markers[15]['retweeted'] = 0;
+markers[15]['created_at'] = "Sat Jun 09 22:04:37 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:04:37 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[16] = new google.maps.LatLng(52.2611498325,-1.92827854776);
+markers[16] = new google.maps.Marker({position: latlngs[16], map: map, url: "https://twitter.com/statuses/1005571364521234432",title:" Waited all day for the >>Fury<< >>Seferi<< fight, forgot all about it at 10pm and put it on just to see it get stopped. Fum… https://t.co/oubJzZGm41 "});
+markers[16]['uns_icon'] = "img/angry.png";
+markers[16]['sel_icon'] = "img/angry_sel.png";
+markers[16].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[16]['emo'] = "angry";
+markers[16]['html_text'] = "Tweet: Waited all day for the <b><i>Fury</i></b> <b><i>Seferi</i></b> fight  forgot all about it at 10pm and put it on just to see it get stopped. Fum… https://t.co/oubJzZGm41</br>Category: angry</br>Created at: Sat Jun 09 22:04:30 +0000 2018</br>Place: Stoke-on-Trent latitude:53.0162014 longitude:-2.1812606</br>Likes: 0</br>Retweets: 0";
+markers[16]['liked'] = 0;
+markers[16]['retweeted'] = 0;
+markers[16]['created_at'] = "Sat Jun 09 22:04:30 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:04:30 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[17] = new google.maps.LatLng(55.3214618077,-2.02899709827);
+markers[17] = new google.maps.Marker({position: latlngs[17], map: map, url: "https://twitter.com/statuses/1005571287408889857",title:" 08/07/06 Skelton vs Williams. The worst heavyweight bout I ever thought I d witness.   >>Fury<< >>Seferi<< has just taken t… https://t.co/tQNcftXK7s "});
+markers[17]['uns_icon'] = "img/sad.png";
+markers[17]['sel_icon'] = "img/sad_sel.png";
+markers[17].setIcon({url:"img/sad.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[17]['emo'] = "sad";
+markers[17]['html_text'] = "Tweet: 08/07/06 Skelton vs Williams. The worst heavyweight bout I ever thought I d witness.   <b><i>Fury</i></b> <b><i>Seferi</i></b> has just taken t… https://t.co/tQNcftXK7s</br>Category: sad</br>Created at: Sat Jun 09 22:04:12 +0000 2018</br>Place: Hartlepool latitude:54.6957009 longitude:-1.2003161</br>Likes: 0</br>Retweets: 0";
+markers[17]['liked'] = 0;
+markers[17]['retweeted'] = 0;
+markers[17]['created_at'] = "Sat Jun 09 22:04:12 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:04:12 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[18] = new google.maps.LatLng(52.2347591642,0.158686068135);
+markers[18] = new google.maps.Marker({position: latlngs[18], map: map, url: "https://twitter.com/statuses/1005571223491837954",title:" How much was >>Seferi<< paid to retire this match? #>>Fury<< #>>Seferi<< "});
+markers[18]['uns_icon'] = "img/disapointed.png";
+markers[18]['sel_icon'] = "img/disapointed_sel.png";
+markers[18].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[18]['emo'] = "disapointed";
+markers[18]['html_text'] = "Tweet: How much was <b><i>Seferi</i></b> paid to retire this match? #<b><i>Fury</i></b> #<b><i>Seferi</i></b></br>Category: disapointed</br>Created at: Sat Jun 09 22:03:56 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[18]['liked'] = 0;
+markers[18]['retweeted'] = 0;
+markers[18]['created_at'] = "Sat Jun 09 22:03:56 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:03:56 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[19] = new google.maps.LatLng(51.0450934446,-0.712025421);
+markers[19] = new google.maps.Marker({position: latlngs[19], map: map, url: "https://twitter.com/statuses/1005571150699794432",title:" The most disappointing thing about >>Fury<<->>Seferi<< is that most of the people on my timeline appear to have actually watched the damn thing. "});
+markers[19]['uns_icon'] = "img/disapointed.png";
+markers[19]['sel_icon'] = "img/disapointed_sel.png";
+markers[19].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[19]['emo'] = "disapointed";
+markers[19]['html_text'] = "Tweet: The most disappointing thing about <b><i>Fury</i></b>-<b><i>Seferi</i></b> is that most of the people on my timeline appear to have actually watched the damn thing.</br>Category: disapointed</br>Created at: Sat Jun 09 22:03:39 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[19]['liked'] = 0;
+markers[19]['retweeted'] = 0;
+markers[19]['created_at'] = "Sat Jun 09 22:03:39 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:03:39 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[20] = new google.maps.LatLng(50.6104914558,-0.75149627148);
+markers[20] = new google.maps.Marker({position: latlngs[20], map: map, url: "https://twitter.com/statuses/1005571033003384832",title:" Honestly @btsport ... can you pay me to watch this @Tyson_Fury fight? Thank fuck this is free to watch and not PPV.… https://t.co/Cy9CEdRrfX "});
+markers[20]['uns_icon'] = "img/angry.png";
+markers[20]['sel_icon'] = "img/angry_sel.png";
+markers[20].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[20]['emo'] = "angry";
+markers[20]['html_text'] = "Tweet: Honestly @btsport ... can you pay me to watch this @Tyson_Fury fight? Thank fuck this is free to watch and not PPV.… https://t.co/Cy9CEdRrfX</br>Category: angry</br>Created at: Sat Jun 09 22:03:11 +0000 2018</br>Place: Berkshire  UK. latitude:51.4534889 longitude:-1.03187295933992</br>Likes: 0</br>Retweets: 0";
+markers[20]['liked'] = 0;
+markers[20]['retweeted'] = 0;
+markers[20]['created_at'] = "Sat Jun 09 22:03:11 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:03:11 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[21] = new google.maps.LatLng(52.0724678628,0.151801725102);
+markers[21] = new google.maps.Marker({position: latlngs[21], map: map, url: "https://twitter.com/statuses/1005570805164593153",title:" What did you make of the >>Fury<< >>Seferi<< fight?   #TysonFury #>>Fury<<  #SeferSeferi #>>Seferi<<  #FurySeferi #Boxing "});
+markers[21]['uns_icon'] = "img/angry.png";
+markers[21]['sel_icon'] = "img/angry_sel.png";
+markers[21].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[21]['emo'] = "angry";
+markers[21]['html_text'] = "Tweet: What did you make of the <b><i>Fury</i></b> <b><i>Seferi</i></b> fight?   #TysonFury #<b><i>Fury</i></b>  #SeferSeferi #<b><i>Seferi</i></b>  #FurySeferi #Boxing</br>Category: angry</br>Created at: Sat Jun 09 22:02:17 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[21]['liked'] = 0;
+markers[21]['retweeted'] = 0;
+markers[21]['created_at'] = "Sat Jun 09 22:02:17 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:02:17 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[22] = new google.maps.LatLng(52.9905920605,-2.64311189632);
+markers[22] = new google.maps.Marker({position: latlngs[22], map: map, url: "https://twitter.com/statuses/1005570778933465094",title:" >>Fury<< / >>Seferi<< is like two 12 year old best mates play fighting in the back garden. JOKE "});
+markers[22]['uns_icon'] = "img/happy.png";
+markers[22]['sel_icon'] = "img/happy_sel.png";
+markers[22].setIcon({url:"img/happy.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[22]['emo'] = "happy";
+markers[22]['html_text'] = "Tweet: <b><i>Fury</i></b> / <b><i>Seferi</i></b> is like two 12 year old best mates play fighting in the back garden. JOKE</br>Category: happy</br>Created at: Sat Jun 09 22:02:10 +0000 2018</br>Place: Lichfield  England latitude:52.6843696 longitude:-1.8275286</br>Likes: 0</br>Retweets: 0";
+markers[22]['liked'] = 0;
+markers[22]['retweeted'] = 0;
+markers[22]['created_at'] = "Sat Jun 09 22:02:10 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:02:10 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[23] = new google.maps.LatLng(53.4172541084,-3.43531376704);
+markers[23] = new google.maps.Marker({position: latlngs[23], map: map, url: "https://twitter.com/statuses/1005570770058252289",title:" Terrible fight that, was like a charity event #>>Fury<< #>>Seferi<< "});
+markers[23]['uns_icon'] = "img/sad.png";
+markers[23]['sel_icon'] = "img/sad_sel.png";
+markers[23].setIcon({url:"img/sad.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[23]['emo'] = "sad";
+markers[23]['html_text'] = "Tweet: Terrible fight that  was like a charity event #<b><i>Fury</i></b> #<b><i>Seferi</i></b></br>Category: sad</br>Created at: Sat Jun 09 22:02:08 +0000 2018</br>Place: Liverpool  England latitude:53.4054719 longitude:-2.9805392</br>Likes: 0</br>Retweets: 0";
+markers[23]['liked'] = 0;
+markers[23]['retweeted'] = 0;
+markers[23]['created_at'] = "Sat Jun 09 22:02:08 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:02:08 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[24] = new google.maps.LatLng(53.2431313604,-6.3848420484);
+markers[24] = new google.maps.Marker({position: latlngs[24], map: map, url: "https://twitter.com/statuses/1005570734620643328",title:" That’s a joke and then some #boxing #>>fury<< #>>Seferi<< "});
+markers[24]['uns_icon'] = "img/angry.png";
+markers[24]['sel_icon'] = "img/angry_sel.png";
+markers[24].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[24]['emo'] = "angry";
+markers[24]['html_text'] = "Tweet: That’s a joke and then some #boxing #<b><i>fury</i></b> #<b><i>Seferi</i></b></br>Category: angry</br>Created at: Sat Jun 09 22:02:00 +0000 2018</br>Place: newry latitude:54.1775283 longitude:-6.337506</br>Likes: 0</br>Retweets: 0";
+markers[24]['liked'] = 0;
+markers[24]['retweeted'] = 0;
+markers[24]['created_at'] = "Sat Jun 09 22:02:00 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:02:00 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[25] = new google.maps.LatLng(52.854371542,-1.27205300357);
+markers[25] = new google.maps.Marker({position: latlngs[25], map: map, url: "https://twitter.com/statuses/1005570366566264832",title:" Highlights of the >>Fury<< >>Seferi<< fight #shocker https://t.co/T5tZEdUzXj "});
+markers[25]['uns_icon'] = "img/angry.png";
+markers[25]['sel_icon'] = "img/angry_sel.png";
+markers[25].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[25]['emo'] = "angry";
+markers[25]['html_text'] = "Tweet: Highlights of the <b><i>Fury</i></b> <b><i>Seferi</i></b> fight #shocker https://t.co/T5tZEdUzXj</br>Category: angry</br>Created at: Sat Jun 09 22:00:32 +0000 2018</br>Place: Hull latitude:53.7435722 longitude:-0.3394758</br>Likes: 0</br>Retweets: 5";
+markers[25]['liked'] = 0;
+markers[25]['retweeted'] = 5;
+markers[25]['created_at'] = "Sat Jun 09 22:00:32 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:00:32 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[26] = new google.maps.LatLng(51.9430734198,-2.8751752431);
+markers[26] = new google.maps.Marker({position: latlngs[26], map: map, url: "https://twitter.com/statuses/1005570359360450560",title:" What an absolute joke! #>>fury<< #>>seferi<< "});
+markers[26]['uns_icon'] = "img/angry.png";
+markers[26]['sel_icon'] = "img/angry_sel.png";
+markers[26].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[26]['emo'] = "angry";
+markers[26]['html_text'] = "Tweet: What an absolute joke! #<b><i>fury</i></b> #<b><i>seferi</i></b></br>Category: angry</br>Created at: Sat Jun 09 22:00:30 +0000 2018</br>Place: West Midlands  UK latitude:52.5050033 longitude:-1.96439612333127</br>Likes: 0</br>Retweets: 0";
+markers[26]['liked'] = 0;
+markers[26]['retweeted'] = 0;
+markers[26]['created_at'] = "Sat Jun 09 22:00:30 +0000 2018";
+var datetime = new Date("Sat Jun 09 22:00:30 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[27] = new google.maps.LatLng(50.9586440698,-0.53062146784);
+markers[27] = new google.maps.Marker({position: latlngs[27], map: map, url: "https://twitter.com/statuses/1005570109082128385",title:" This is beautiful boxing from >>fury<<, >>seferi<< looks scared though. "});
+markers[27]['uns_icon'] = "img/fear.png";
+markers[27]['sel_icon'] = "img/fear_sel.png";
+markers[27].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[27]['emo'] = "fear";
+markers[27]['html_text'] = "Tweet: This is beautiful boxing from <b><i>fury</i></b>  <b><i>seferi</i></b> looks scared though.</br>Category: fear</br>Created at: Sat Jun 09 21:59:31 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[27]['liked'] = 0;
+markers[27]['retweeted'] = 0;
+markers[27]['created_at'] = "Sat Jun 09 21:59:31 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:59:31 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[28] = new google.maps.LatLng(54.8132106596,-1.65000380531);
+markers[28] = new google.maps.Marker({position: latlngs[28], map: map, url: "https://twitter.com/statuses/1005569659863695362",title:" More going on in the crowd than there is in the ring here 🙄 #>>Fury<< #>>Seferi<< "});
+markers[28]['uns_icon'] = "img/fear.png";
+markers[28]['sel_icon'] = "img/fear_sel.png";
+markers[28].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[28]['emo'] = "fear";
+markers[28]['html_text'] = "Tweet: More going on in the crowd than there is in the ring here 🙄 #<b><i>Fury</i></b> #<b><i>Seferi</i></b></br>Category: fear</br>Created at: Sat Jun 09 21:57:44 +0000 2018</br>Place: Middlesbrough  England latitude:54.5760419 longitude:-1.2344047</br>Likes: 0</br>Retweets: 0";
+markers[28]['liked'] = 0;
+markers[28]['retweeted'] = 0;
+markers[28]['created_at'] = "Sat Jun 09 21:57:44 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:57:44 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[29] = new google.maps.LatLng(52.9671067394,-2.61327740696);
+markers[29] = new google.maps.Marker({position: latlngs[29], map: map, url: "https://twitter.com/statuses/1005568877198225409",title:" This fight is just proper shit! #>>fury<< #>>seferi<< "});
+markers[29]['uns_icon'] = "img/angry.png";
+markers[29]['sel_icon'] = "img/angry_sel.png";
+markers[29].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[29]['emo'] = "angry";
+markers[29]['html_text'] = "Tweet: This fight is just proper shit! #<b><i>fury</i></b> #<b><i>seferi</i></b></br>Category: angry</br>Created at: Sat Jun 09 21:54:37 +0000 2018</br>Place: West Midlands  UK latitude:52.5050033 longitude:-1.96439612333127</br>Likes: 0</br>Retweets: 0";
+markers[29]['liked'] = 0;
+markers[29]['retweeted'] = 0;
+markers[29]['created_at'] = "Sat Jun 09 21:54:37 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:54:37 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[30] = new google.maps.LatLng(5.60221907833,2.43711764426);
+markers[30] = new google.maps.Marker({position: latlngs[30], map: map, url: "https://twitter.com/statuses/1005568755437580289",title:" Who else is disgusted by this >>Fury<</ >>Seferi<< match? "});
+markers[30]['uns_icon'] = "img/angry.png";
+markers[30]['sel_icon'] = "img/angry_sel.png";
+markers[30].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[30]['emo'] = "angry";
+markers[30]['html_text'] = "Tweet: Who else is disgusted by this <b><i>Fury</i></b>/ <b><i>Seferi</i></b> match?</br>Category: angry</br>Created at: Sat Jun 09 21:54:08 +0000 2018</br>Place: Lagos  Nigeria latitude:6.4550575 longitude:3.3941795</br>Likes: 0</br>Retweets: 0";
+markers[30]['liked'] = 0;
+markers[30]['retweeted'] = 0;
+markers[30]['created_at'] = "Sat Jun 09 21:54:08 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:54:08 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[31] = new google.maps.LatLng(53.4783593426,-1.55216835951);
+markers[31] = new google.maps.Marker({position: latlngs[31], map: map, url: "https://twitter.com/statuses/1005568393133608962",title:" Fighting in the crowd at the >>Fury<< >>Seferi<< fight, could be a busy night in Manchester for the night shift!… https://t.co/D8vSGNeuj9 "});
+markers[31]['uns_icon'] = "img/satisfied.png";
+markers[31]['sel_icon'] = "img/satisfied_sel.png";
+markers[31].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[31]['emo'] = "satisfied";
+markers[31]['html_text'] = "Tweet: Fighting in the crowd at the <b><i>Fury</i></b> <b><i>Seferi</i></b> fight  could be a busy night in Manchester for the night shift!… https://t.co/D8vSGNeuj9</br>Category: satisfied</br>Created at: Sat Jun 09 21:52:42 +0000 2018</br>Place: Manchester  England latitude:53.4791301 longitude:-2.2441008</br>Likes: 0</br>Retweets: 1";
+markers[31]['liked'] = 0;
+markers[31]['retweeted'] = 1;
+markers[31]['created_at'] = "Sat Jun 09 21:52:42 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:52:42 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[32] = new google.maps.LatLng(53.9330425892,-6.87475094715);
+markers[32] = new google.maps.Marker({position: latlngs[32], map: map, url: "https://twitter.com/statuses/1005568306290577408",title:" This is an absol joke to boxing this fight !! #>>fury<< #>>Seferi<< "});
+markers[32]['uns_icon'] = "img/angry.png";
+markers[32]['sel_icon'] = "img/angry_sel.png";
+markers[32].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[32]['emo'] = "angry";
+markers[32]['html_text'] = "Tweet: This is an absol joke to boxing this fight !! #<b><i>fury</i></b> #<b><i>Seferi</i></b></br>Category: angry</br>Created at: Sat Jun 09 21:52:21 +0000 2018</br>Place: newry latitude:54.1775283 longitude:-6.337506</br>Likes: 0</br>Retweets: 0";
+markers[32]['liked'] = 0;
+markers[32]['retweeted'] = 0;
+markers[32]['created_at'] = "Sat Jun 09 21:52:21 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:52:21 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[33] = new google.maps.LatLng(56.518400117,-4.95593956758);
+markers[33] = new google.maps.Marker({position: latlngs[33], map: map, url: "https://twitter.com/statuses/1005568074039418882",title:" Better boxing match in the crowd than there is in the ring!! #BTSport #BTBoxing #>>Fury<< #>>Seferi<< "});
+markers[33]['uns_icon'] = "img/fear.png";
+markers[33]['sel_icon'] = "img/fear_sel.png";
+markers[33].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[33]['emo'] = "fear";
+markers[33]['html_text'] = "Tweet: Better boxing match in the crowd than there is in the ring!! #BTSport #BTBoxing #<b><i>Fury</i></b> #<b><i>Seferi</i></b></br>Category: fear</br>Created at: Sat Jun 09 21:51:26 +0000 2018</br>Place: Glasgow  Scotland latitude:55.856656 longitude:-4.2435817</br>Likes: 0</br>Retweets: 0";
+markers[33]['liked'] = 0;
+markers[33]['retweeted'] = 0;
+markers[33]['created_at'] = "Sat Jun 09 21:51:26 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:51:26 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[34] = new google.maps.LatLng(52.2057688063,-3.27971784708);
+markers[34] = new google.maps.Marker({position: latlngs[34], map: map, url: "https://twitter.com/statuses/1005568023082741761",title:" When the fight in the crowd is better than the >>Fury<< >>Seferi<< fight "});
+markers[34]['uns_icon'] = "img/satisfied.png";
+markers[34]['sel_icon'] = "img/satisfied_sel.png";
+markers[34].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[34]['emo'] = "satisfied";
+markers[34]['html_text'] = "Tweet: When the fight in the crowd is better than the <b><i>Fury</i></b> <b><i>Seferi</i></b> fight</br>Category: satisfied</br>Created at: Sat Jun 09 21:51:13 +0000 2018</br>Place: Cardiff  Wales latitude:51.4816546 longitude:-3.1791933</br>Likes: 0</br>Retweets: 0";
+markers[34]['liked'] = 0;
+markers[34]['retweeted'] = 0;
+markers[34]['created_at'] = "Sat Jun 09 21:51:13 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:51:13 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[35] = new google.maps.LatLng(52.6649145891,-1.84899342526);
+markers[35] = new google.maps.Marker({position: latlngs[35], map: map, url: "https://twitter.com/statuses/1005567667204427776",title:" This fight is a joke.. comedy gold. Worst than David Haye on Dave. #>>fury<< #>>seferi<< "});
+markers[35]['uns_icon'] = "img/angry.png";
+markers[35]['sel_icon'] = "img/angry_sel.png";
+markers[35].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[35]['emo'] = "angry";
+markers[35]['html_text'] = "Tweet: This fight is a joke.. comedy gold. Worst than David Haye on Dave. #<b><i>fury</i></b> #<b><i>seferi</i></b></br>Category: angry</br>Created at: Sat Jun 09 21:49:49 +0000 2018</br>Place: Wolverhampton latitude:52.5847651 longitude:-2.127567</br>Likes: 0</br>Retweets: 0";
+markers[35]['liked'] = 0;
+markers[35]['retweeted'] = 0;
+markers[35]['created_at'] = "Sat Jun 09 21:49:49 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:49:49 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[36] = new google.maps.LatLng(53.6961719721,-2.48279643627);
+markers[36] = new google.maps.Marker({position: latlngs[36], map: map, url: "https://twitter.com/statuses/1005567294838333443",title:" #FurySeferi Full blown man kiss on the lips from >>Fury<<... >>Seferi<< looks petrified and reckon whatever >>Fury<< wanted >>Seferi<< would happily give "});
+markers[36]['uns_icon'] = "img/satisfied.png";
+markers[36]['sel_icon'] = "img/satisfied_sel.png";
+markers[36].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[36]['emo'] = "satisfied";
+markers[36]['html_text'] = "Tweet: #FurySeferi Full blown man kiss on the lips from <b><i>Fury</i></b>... <b><i>Seferi</i></b> looks petrified and reckon whatever <b><i>Fury</i></b> wanted <b><i>Seferi</i></b> would happily give</br>Category: satisfied</br>Created at: Sat Jun 09 21:48:20 +0000 2018</br>Place: Liverpool  England latitude:53.4054719 longitude:-2.9805392</br>Likes: 0</br>Retweets: 0";
+markers[36]['liked'] = 0;
+markers[36]['retweeted'] = 0;
+markers[36]['created_at'] = "Sat Jun 09 21:48:20 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:48:20 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[37] = new google.maps.LatLng(52.1986853873,-1.68112648802);
+markers[37] = new google.maps.Marker({position: latlngs[37], map: map, url: "https://twitter.com/statuses/1005566320807743488",title:" My Mum thinks my obsession with #Boxing is very unlady like😂😂😂  Why can t you just like girly shows Nat ?  Mum FFS… https://t.co/lxTtD4PNbU "});
+markers[37]['uns_icon'] = "img/angry.png";
+markers[37]['sel_icon'] = "img/angry_sel.png";
+markers[37].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[37]['emo'] = "angry";
+markers[37]['html_text'] = "Tweet: My Mum thinks my obsession with #Boxing is very unlady like😂😂😂  Why can t you just like girly shows Nat ?  Mum FFS… https://t.co/lxTtD4PNbU</br>Category: angry</br>Created at: Sat Jun 09 21:44:28 +0000 2018</br>Place: West Midlands  England latitude:52.5054871 longitude:-1.96472256368532</br>Likes: 0</br>Retweets: 0";
+markers[37]['liked'] = 0;
+markers[37]['retweeted'] = 0;
+markers[37]['created_at'] = "Sat Jun 09 21:44:28 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:44:28 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[38] = new google.maps.LatLng(50.5505493395,-3.16685960577);
+markers[38] = new google.maps.Marker({position: latlngs[38], map: map, url: "https://twitter.com/statuses/1005566239853379585",title:" Tyson >>Fury<< looks like Gru from Despicable Me. #>>Fury<< #>>Seferi<< #Boxing "});
+markers[38]['uns_icon'] = "img/angry.png";
+markers[38]['sel_icon'] = "img/angry_sel.png";
+markers[38].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[38]['emo'] = "angry";
+markers[38]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> looks like Gru from Despicable Me. #<b><i>Fury</i></b> #<b><i>Seferi</i></b> #Boxing</br>Category: angry</br>Created at: Sat Jun 09 21:44:08 +0000 2018</br>Place: Somerset  England. latitude:51.083333 longitude:-3</br>Likes: 0</br>Retweets: 0";
+markers[38]['liked'] = 0;
+markers[38]['retweeted'] = 0;
+markers[38]['created_at'] = "Sat Jun 09 21:44:08 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:44:08 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[39] = new google.maps.LatLng(52.3840292892,0.448580435741);
+markers[39] = new google.maps.Marker({position: latlngs[39], map: map, url: "https://twitter.com/statuses/1005556407675088896",title:" @PunkOnWhiskey It s easy. &gt;Google play store &gt;Turbo vpn &gt;select America on vpn app &gt; this link… https://t.co/T9SLXkrrqS "});
+markers[39]['uns_icon'] = "img/fear.png";
+markers[39]['sel_icon'] = "img/fear_sel.png";
+markers[39].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[39]['emo'] = "fear";
+markers[39]['html_text'] = "Tweet: @PunkOnWhiskey It s easy. &gt Google play store &gt Turbo vpn &gt select America on vpn app &gt  this link… https://t.co/T9SLXkrrqS</br>Category: fear</br>Created at: Sat Jun 09 21:05:04 +0000 2018</br>Place: Broken Britain latitude:51.5421132 longitude:-0.4852971</br>Likes: 0</br>Retweets: 0";
+markers[39]['liked'] = 0;
+markers[39]['retweeted'] = 0;
+markers[39]['created_at'] = "Sat Jun 09 21:05:04 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:05:04 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[40] = new google.maps.LatLng(53.7345586152,-4.14622056267);
+markers[40] = new google.maps.Marker({position: latlngs[40], map: map, url: "https://twitter.com/statuses/1005555256602787840",title:" @5liveSport For me, the match between >>Fury<< &amp; >>Seferi<< is a boxing mismatch. >>Seferi<< is chosen to set the scene for Fur… https://t.co/OqnfWfEubP "});
+markers[40]['uns_icon'] = "img/satisfied.png";
+markers[40]['sel_icon'] = "img/satisfied_sel.png";
+markers[40].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[40]['emo'] = "satisfied";
+markers[40]['html_text'] = "Tweet: @5liveSport For me  the match between <b><i>Fury</i></b> &amp  <b><i>Seferi</i></b> is a boxing mismatch. <b><i>Seferi</i></b> is chosen to set the scene for Fur… https://t.co/OqnfWfEubP</br>Category: satisfied</br>Created at: Sat Jun 09 21:00:30 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[40]['liked'] = 0;
+markers[40]['retweeted'] = 0;
+markers[40]['created_at'] = "Sat Jun 09 21:00:30 +0000 2018";
+var datetime = new Date("Sat Jun 09 21:00:30 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[41] = new google.maps.LatLng(39.6849752993,-100.007420381);
+markers[41] = new google.maps.Marker({position: latlngs[41], map: map, url: "https://twitter.com/statuses/1005554631194357760",title:" Frank Warren Breaks Down >>Fury<<->>Seferi<<, Flanagan-Hooker-Sport News https://t.co/4x4NhlUvxl "});
+markers[41]['uns_icon'] = "img/angry.png";
+markers[41]['sel_icon'] = "img/angry_sel.png";
+markers[41].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[41]['emo'] = "angry";
+markers[41]['html_text'] = "Tweet: Frank Warren Breaks Down <b><i>Fury</i></b>-<b><i>Seferi</i></b>  Flanagan-Hooker-Sport News https://t.co/4x4NhlUvxl</br>Category: angry</br>Created at: Sat Jun 09 20:58:01 +0000 2018</br>Place: US & UK latitude:39.7837304 longitude:-100.4458825</br>Likes: 0</br>Retweets: 0";
+markers[41]['liked'] = 0;
+markers[41]['retweeted'] = 0;
+markers[41]['created_at'] = "Sat Jun 09 20:58:01 +0000 2018";
+var datetime = new Date("Sat Jun 09 20:58:01 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[42] = new google.maps.LatLng(53.8064504573,-3.79160680785);
+markers[42] = new google.maps.Marker({position: latlngs[42], map: map, url: "https://twitter.com/statuses/1005540308304703489",title:" #TysonFury makes a return to the ring for the first time in just under three years when he takes on #SeferSeferi to… https://t.co/gLpHJZ5WE0 "});
+markers[42]['uns_icon'] = "img/disapointed.png";
+markers[42]['sel_icon'] = "img/disapointed_sel.png";
+markers[42].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[42]['emo'] = "disapointed";
+markers[42]['html_text'] = "Tweet: #TysonFury makes a return to the ring for the first time in just under three years when he takes on #SeferSeferi to… https://t.co/gLpHJZ5WE0</br>Category: disapointed</br>Created at: Sat Jun 09 20:01:06 +0000 2018</br>Place: UK latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[42]['liked'] = 0;
+markers[42]['retweeted'] = 0;
+markers[42]['created_at'] = "Sat Jun 09 20:01:06 +0000 2018";
+var datetime = new Date("Sat Jun 09 20:01:06 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[43] = new google.maps.LatLng(52.9807846982,0.435846133683);
+markers[43] = new google.maps.Marker({position: latlngs[43], map: map, url: "https://twitter.com/statuses/1005540307600068608",title:" #TysonFury makes a return to the ring for the first time in just under three years when he takes on #SeferSeferi to… https://t.co/xEvV8xVEPW "});
+markers[43]['uns_icon'] = "img/disapointed.png";
+markers[43]['sel_icon'] = "img/disapointed_sel.png";
+markers[43].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[43]['emo'] = "disapointed";
+markers[43]['html_text'] = "Tweet: #TysonFury makes a return to the ring for the first time in just under three years when he takes on #SeferSeferi to… https://t.co/xEvV8xVEPW</br>Category: disapointed</br>Created at: Sat Jun 09 20:01:06 +0000 2018</br>Place: England  United Kingdom latitude:52.7954791 longitude:-0.540240236617432</br>Likes: 0</br>Retweets: 0";
+markers[43]['liked'] = 0;
+markers[43]['retweeted'] = 0;
+markers[43]['created_at'] = "Sat Jun 09 20:01:06 +0000 2018";
+var datetime = new Date("Sat Jun 09 20:01:06 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[44] = new google.maps.LatLng(54.1402433499,-4.56182243614);
+markers[44] = new google.maps.Marker({position: latlngs[44], map: map, url: "https://twitter.com/statuses/1005532187423334401",title:" @deanjenko @Tyson_Fury >>Seferi<< got a decent ko ratio until you see who hes been fighting 😂 "});
+markers[44]['uns_icon'] = "img/sad.png";
+markers[44]['sel_icon'] = "img/sad_sel.png";
+markers[44].setIcon({url:"img/sad.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[44]['emo'] = "sad";
+markers[44]['html_text'] = "Tweet: @deanjenko @Tyson_Fury <b><i>Seferi</i></b> got a decent ko ratio until you see who hes been fighting 😂</br>Category: sad</br>Created at: Sat Jun 09 19:28:50 +0000 2018</br>Place: lincs latitude:53.4107597 longitude:-4.3594144</br>Likes: 0</br>Retweets: 0";
+markers[44]['liked'] = 0;
+markers[44]['retweeted'] = 0;
+markers[44]['created_at'] = "Sat Jun 09 19:28:50 +0000 2018";
+var datetime = new Date("Sat Jun 09 19:28:50 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[45] = new google.maps.LatLng(51.2851056504,0.590088822505);
+markers[45] = new google.maps.Marker({position: latlngs[45], map: map, url: "https://twitter.com/statuses/1005519628200759296",title:" Gorman batters Turner and puts himself firmly on the British heavyweight scene - Dubois next?  https://t.co/N3bkwEpxht #FurySeferi "});
+markers[45]['uns_icon'] = "img/fear.png";
+markers[45]['sel_icon'] = "img/fear_sel.png";
+markers[45].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[45]['emo'] = "fear";
+markers[45]['html_text'] = "Tweet: Gorman batters Turner and puts himself firmly on the British heavyweight scene - Dubois next?  https://t.co/N3bkwEpxht #FurySeferi</br>Category: fear</br>Created at: Sat Jun 09 18:38:55 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[45]['liked'] = 0;
+markers[45]['retweeted'] = 0;
+markers[45]['created_at'] = "Sat Jun 09 18:38:55 +0000 2018";
+var datetime = new Date("Sat Jun 09 18:38:55 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[46] = new google.maps.LatLng(55.3007299086,-2.82292222482);
+markers[46] = new google.maps.Marker({position: latlngs[46], map: map, url: "https://twitter.com/statuses/1005517049974714371",title:" Does anyone want a free stream for the Tyson >>Fury<< / >>Seferi<< fight? Message me or give me a follow. #FurySeferi… https://t.co/ugMp348Ah6 "});
+markers[46]['uns_icon'] = "img/angry.png";
+markers[46]['sel_icon'] = "img/angry_sel.png";
+markers[46].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[46]['emo'] = "angry";
+markers[46]['html_text'] = "Tweet: Does anyone want a free stream for the Tyson <b><i>Fury</i></b> / <b><i>Seferi</i></b> fight? Message me or give me a follow. #FurySeferi… https://t.co/ugMp348Ah6</br>Category: angry</br>Created at: Sat Jun 09 18:28:40 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 2";
+markers[46]['liked'] = 0;
+markers[46]['retweeted'] = 2;
+markers[46]['created_at'] = "Sat Jun 09 18:28:40 +0000 2018";
+var datetime = new Date("Sat Jun 09 18:28:40 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[47] = new google.maps.LatLng(9.6262785714,8.66794516889);
+markers[47] = new google.maps.Marker({position: latlngs[47], map: map, url: "https://twitter.com/statuses/1005504578719121408",title:" Tyson >>Fury<< vs Sefer >>Seferi<< live round-by-round updates as former world heavyweight champion returns to the ring https://t.co/MrSsNrcP37 "});
+markers[47]['uns_icon'] = "img/satisfied.png";
+markers[47]['sel_icon'] = "img/satisfied_sel.png";
+markers[47].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[47]['emo'] = "satisfied";
+markers[47]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> vs Sefer <b><i>Seferi</i></b> live round-by-round updates as former world heavyweight champion returns to the ring https://t.co/MrSsNrcP37</br>Category: satisfied</br>Created at: Sat Jun 09 17:39:07 +0000 2018</br>Place: Nigeria latitude:9.6000359 longitude:7.9999721</br>Likes: 0</br>Retweets: 0";
+markers[47]['liked'] = 0;
+markers[47]['retweeted'] = 0;
+markers[47]['created_at'] = "Sat Jun 09 17:39:07 +0000 2018";
+var datetime = new Date("Sat Jun 09 17:39:07 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[48] = new google.maps.LatLng(51.2869895524,0.724006561484);
+markers[48] = new google.maps.Marker({position: latlngs[48], map: map, url: "https://twitter.com/statuses/1005474366979825665",title:" Not long until the Gypsy King @Tyson_Fury makes his return 💥 - check out our prediction!👇  https://t.co/uW20i2HVOP… https://t.co/FjT2GvG0XA "});
+markers[48]['uns_icon'] = "img/satisfied.png";
+markers[48]['sel_icon'] = "img/satisfied_sel.png";
+markers[48].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[48]['emo'] = "satisfied";
+markers[48]['html_text'] = "Tweet: Not long until the Gypsy King @Tyson_Fury makes his return 💥 - check out our prediction!👇  https://t.co/uW20i2HVOP… https://t.co/FjT2GvG0XA</br>Category: satisfied</br>Created at: Sat Jun 09 15:39:04 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[48]['liked'] = 0;
+markers[48]['retweeted'] = 0;
+markers[48]['created_at'] = "Sat Jun 09 15:39:04 +0000 2018";
+var datetime = new Date("Sat Jun 09 15:39:04 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[49] = new google.maps.LatLng(5.96293957247,-0.179067392331);
+markers[49] = new google.maps.Marker({position: latlngs[49], map: map, url: "https://twitter.com/statuses/1005469561821462528",title:" Tyson >>Fury<< comeback fight this weekend 🥊 💥 🥊 Tyson >>Fury<< 🆚 >>Seferi<< Sefer 🥊 💥 . Bet on BOXING ➡️… https://t.co/UeA0qI3t0q "});
+markers[49]['uns_icon'] = "img/fear.png";
+markers[49]['sel_icon'] = "img/fear_sel.png";
+markers[49].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[49]['emo'] = "fear";
+markers[49]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> comeback fight this weekend 🥊 💥 🥊 Tyson <b><i>Fury</i></b> 🆚 <b><i>Seferi</i></b> Sefer 🥊 💥 . Bet on BOXING ➡️… https://t.co/UeA0qI3t0q</br>Category: fear</br>Created at: Sat Jun 09 15:19:58 +0000 2018</br>Place: Accra  Ghana latitude:5.5600141 longitude:-0.2057437</br>Likes: 0</br>Retweets: 0";
+markers[49]['liked'] = 0;
+markers[49]['retweeted'] = 0;
+markers[49]['created_at'] = "Sat Jun 09 15:19:58 +0000 2018";
+var datetime = new Date("Sat Jun 09 15:19:58 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[50] = new google.maps.LatLng(54.0887891381,-2.56387472803);
+markers[50] = new google.maps.Marker({position: latlngs[50], map: map, url: "https://twitter.com/statuses/1005462741514104832",title:" @MimiMel0417 @harveycruise7 @WorldBoxingWall 🤣🤣🤣🤣🤣🤣 predictions for tonight MM what you saying on Horn Crawford / C… https://t.co/8LAIFRO7tE "});
+markers[50]['uns_icon'] = "img/satisfied.png";
+markers[50]['sel_icon'] = "img/satisfied_sel.png";
+markers[50].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[50]['emo'] = "satisfied";
+markers[50]['html_text'] = "Tweet: @MimiMel0417 @harveycruise7 @WorldBoxingWall 🤣🤣🤣🤣🤣🤣 predictions for tonight MM what you saying on Horn Crawford / C… https://t.co/8LAIFRO7tE</br>Category: satisfied</br>Created at: Sat Jun 09 14:52:52 +0000 2018</br>Place: latitude:53.531967 longitude:-2.5139084</br>Likes: 0</br>Retweets: 0";
+markers[50]['liked'] = 0;
+markers[50]['retweeted'] = 0;
+markers[50]['created_at'] = "Sat Jun 09 14:52:52 +0000 2018";
+var datetime = new Date("Sat Jun 09 14:52:52 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[51] = new google.maps.LatLng(51.3677327521,-0.496659030038);
+markers[51] = new google.maps.Marker({position: latlngs[51], map: map, url: "https://twitter.com/statuses/1005444561555083265",title:" Sports day saturday  🏉rugby 🏉 england vs south africa 4pm  🥊 boxing 🥊 tyson >>fury<< vs sefer >>seferi<< from 10pm  #rugby… https://t.co/b1zvaLBDlq "});
+markers[51]['uns_icon'] = "img/happy.png";
+markers[51]['sel_icon'] = "img/happy_sel.png";
+markers[51].setIcon({url:"img/happy.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[51]['emo'] = "happy";
+markers[51]['html_text'] = "Tweet: Sports day saturday  🏉rugby 🏉 england vs south africa 4pm  🥊 boxing 🥊 tyson <b><i>fury</i></b> vs sefer <b><i>seferi</i></b> from 10pm  #rugby… https://t.co/b1zvaLBDlq</br>Category: happy</br>Created at: Sat Jun 09 13:40:38 +0000 2018</br>Place: Ealing  London latitude:51.5126553 longitude:-0.3051952</br>Likes: 0</br>Retweets: 0";
+markers[51]['liked'] = 0;
+markers[51]['retweeted'] = 0;
+markers[51]['created_at'] = "Sat Jun 09 13:40:38 +0000 2018";
+var datetime = new Date("Sat Jun 09 13:40:38 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[52] = new google.maps.LatLng(56.725888533,-5.27397737816);
+markers[52] = new google.maps.Marker({position: latlngs[52], map: map, url: "https://twitter.com/statuses/1005436641291497472",title:" Looking forward to tonight s ultra-competitive >>Fury<<->>Seferi<< bout. https://t.co/r8FfFzPS9X "});
+markers[52]['uns_icon'] = "img/satisfied.png";
+markers[52]['sel_icon'] = "img/satisfied_sel.png";
+markers[52].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[52]['emo'] = "satisfied";
+markers[52]['html_text'] = "Tweet: Looking forward to tonight s ultra-competitive <b><i>Fury</i></b>-<b><i>Seferi</i></b> bout. https://t.co/r8FfFzPS9X</br>Category: satisfied</br>Created at: Sat Jun 09 13:09:10 +0000 2018</br>Place: latitude:55.796184 longitude:-4.3932845</br>Likes: 0</br>Retweets: 0";
+markers[52]['liked'] = 0;
+markers[52]['retweeted'] = 0;
+markers[52]['created_at'] = "Sat Jun 09 13:09:10 +0000 2018";
+var datetime = new Date("Sat Jun 09 13:09:10 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[53] = new google.maps.LatLng(51.200579636,-1.12532208546);
+markers[53] = new google.maps.Marker({position: latlngs[53], map: map, url: "https://twitter.com/statuses/1005402362519916544",title:" For those BoxNation subscribers wondering how they can watch >>Fury<<->>Seferi<< tonight, fear not!  Simply put £28,000 on… https://t.co/Oe1ldeGZPQ "});
+markers[53]['uns_icon'] = "img/fear.png";
+markers[53]['sel_icon'] = "img/fear_sel.png";
+markers[53].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[53]['emo'] = "fear";
+markers[53]['html_text'] = "Tweet: For those BoxNation subscribers wondering how they can watch <b><i>Fury</i></b>-<b><i>Seferi</i></b> tonight  fear not!  Simply put £28 000 on… https://t.co/Oe1ldeGZPQ</br>Category: fear</br>Created at: Sat Jun 09 10:52:57 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 8";
+markers[53]['liked'] = 0;
+markers[53]['retweeted'] = 8;
+markers[53]['created_at'] = "Sat Jun 09 10:52:57 +0000 2018";
+var datetime = new Date("Sat Jun 09 10:52:57 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[54] = new google.maps.LatLng(54.3067817566,-3.80397693095);
+markers[54] = new google.maps.Marker({position: latlngs[54], map: map, url: "https://twitter.com/statuses/1005401337255944199",title:" Frank Warren Breaks Down >>Fury<<->>Seferi<<, Flanagan-Hooker https://t.co/T9IGH0Brpa https://t.co/F4fYDrCv75 🐵 "});
+markers[54]['uns_icon'] = "img/satisfied.png";
+markers[54]['sel_icon'] = "img/satisfied_sel.png";
+markers[54].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[54]['emo'] = "satisfied";
+markers[54]['html_text'] = "Tweet: Frank Warren Breaks Down <b><i>Fury</i></b>-<b><i>Seferi</i></b>  Flanagan-Hooker https://t.co/T9IGH0Brpa https://t.co/F4fYDrCv75 🐵</br>Category: satisfied</br>Created at: Sat Jun 09 10:48:52 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[54]['liked'] = 0;
+markers[54]['retweeted'] = 0;
+markers[54]['created_at'] = "Sat Jun 09 10:48:52 +0000 2018";
+var datetime = new Date("Sat Jun 09 10:48:52 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[55] = new google.maps.LatLng(54.8186958448,-4.08767323913);
+markers[55] = new google.maps.Marker({position: latlngs[55], map: map, url: "https://twitter.com/statuses/1005399870687961088",title:" Frank Warren Breaks Down >>Fury<<->>Seferi<<, Flanagan-Hooker https://t.co/knn4ejS1tf https://t.co/EQyCgF8AGQ "});
+markers[55]['uns_icon'] = "img/satisfied.png";
+markers[55]['sel_icon'] = "img/satisfied_sel.png";
+markers[55].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[55]['emo'] = "satisfied";
+markers[55]['html_text'] = "Tweet: Frank Warren Breaks Down <b><i>Fury</i></b>-<b><i>Seferi</i></b>  Flanagan-Hooker https://t.co/knn4ejS1tf https://t.co/EQyCgF8AGQ</br>Category: satisfied</br>Created at: Sat Jun 09 10:43:03 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 1";
+markers[55]['liked'] = 0;
+markers[55]['retweeted'] = 1;
+markers[55]['created_at'] = "Sat Jun 09 10:43:03 +0000 2018";
+var datetime = new Date("Sat Jun 09 10:43:03 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[56] = new google.maps.LatLng(54.3154886267,-4.15042685474);
+markers[56] = new google.maps.Marker({position: latlngs[56], map: map, url: "https://twitter.com/statuses/1005394097878822912",title:" Tyson >>Fury<< makes a return to the ring for the first time in just under three years when he takes on Sefer >>Seferi<< in… https://t.co/YaBlLZgCgd "});
+markers[56]['uns_icon'] = "img/disapointed.png";
+markers[56]['sel_icon'] = "img/disapointed_sel.png";
+markers[56].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[56]['emo'] = "disapointed";
+markers[56]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> makes a return to the ring for the first time in just under three years when he takes on Sefer <b><i>Seferi</i></b> in… https://t.co/YaBlLZgCgd</br>Category: disapointed</br>Created at: Sat Jun 09 10:20:06 +0000 2018</br>Place: UK latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[56]['liked'] = 0;
+markers[56]['retweeted'] = 0;
+markers[56]['created_at'] = "Sat Jun 09 10:20:06 +0000 2018";
+var datetime = new Date("Sat Jun 09 10:20:06 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[57] = new google.maps.LatLng(53.581997997,-1.20750173716);
+markers[57] = new google.maps.Marker({position: latlngs[57], map: map, url: "https://twitter.com/statuses/1005394097761325057",title:" Tyson >>Fury<< makes a return to the ring for the first time in just under three years when he takes on Sefer >>Seferi<< in… https://t.co/KnBTq67fcd "});
+markers[57]['uns_icon'] = "img/disapointed.png";
+markers[57]['sel_icon'] = "img/disapointed_sel.png";
+markers[57].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[57]['emo'] = "disapointed";
+markers[57]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> makes a return to the ring for the first time in just under three years when he takes on Sefer <b><i>Seferi</i></b> in… https://t.co/KnBTq67fcd</br>Category: disapointed</br>Created at: Sat Jun 09 10:20:06 +0000 2018</br>Place: England  United Kingdom latitude:52.7954791 longitude:-0.540240236617432</br>Likes: 0</br>Retweets: 0";
+markers[57]['liked'] = 0;
+markers[57]['retweeted'] = 0;
+markers[57]['created_at'] = "Sat Jun 09 10:20:06 +0000 2018";
+var datetime = new Date("Sat Jun 09 10:20:06 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[58] = new google.maps.LatLng(50.6414817313,-0.358810753382);
+markers[58] = new google.maps.Marker({position: latlngs[58], map: map, url: "https://twitter.com/statuses/1005392503288270849",title:" All you need to know ahead of Tyson >>Fury<< s fight with Sefer >>Seferi<< https://t.co/0hpLFsCPkY https://t.co/miv8G3hXdU "});
+markers[58]['uns_icon'] = "img/satisfied.png";
+markers[58]['sel_icon'] = "img/satisfied_sel.png";
+markers[58].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[58]['emo'] = "satisfied";
+markers[58]['html_text'] = "Tweet: All you need to know ahead of Tyson <b><i>Fury</i></b> s fight with Sefer <b><i>Seferi</i></b> https://t.co/0hpLFsCPkY https://t.co/miv8G3hXdU</br>Category: satisfied</br>Created at: Sat Jun 09 10:13:46 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 1";
+markers[58]['liked'] = 0;
+markers[58]['retweeted'] = 1;
+markers[58]['created_at'] = "Sat Jun 09 10:13:46 +0000 2018";
+var datetime = new Date("Sat Jun 09 10:13:46 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[59] = new google.maps.LatLng(55.6468256476,-3.43584039082);
+markers[59] = new google.maps.Marker({position: latlngs[59], map: map, url: "https://twitter.com/statuses/1005367299593916416",title:" Approx ring walk times tonight (UK): >>Fury<<->>Seferi<<, BT 10pm Flanagan-Hooker, BT 9pm Horn-Crawford, Boxnation 3.30am "});
+markers[59]['uns_icon'] = "img/angry.png";
+markers[59]['sel_icon'] = "img/angry_sel.png";
+markers[59].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[59]['emo'] = "angry";
+markers[59]['html_text'] = "Tweet: Approx ring walk times tonight (UK): <b><i>Fury</i></b>-<b><i>Seferi</i></b>  BT 10pm Flanagan-Hooker  BT 9pm Horn-Crawford  Boxnation 3.30am</br>Category: angry</br>Created at: Sat Jun 09 08:33:37 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 21";
+markers[59]['liked'] = 0;
+markers[59]['retweeted'] = 21;
+markers[59]['created_at'] = "Sat Jun 09 08:33:37 +0000 2018";
+var datetime = new Date("Sat Jun 09 08:33:37 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[60] = new google.maps.LatLng(52.3594290031,0.272380355427);
+markers[60] = new google.maps.Marker({position: latlngs[60], map: map, url: "https://twitter.com/statuses/1005273807156924416",title:" >>Fury<< 🆚 >>Seferi<<  📲 Live ⏰ Start time 📺 TV 👥 Undercard 🎰 Betting 🎱 Prediction #️⃣ #FurySeferi  Big fight preview👇 https://t.co/CPOxAXRdYi "});
+markers[60]['uns_icon'] = "img/satisfied.png";
+markers[60]['sel_icon'] = "img/satisfied_sel.png";
+markers[60].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[60]['emo'] = "satisfied";
+markers[60]['html_text'] = "Tweet: <b><i>Fury</i></b> 🆚 <b><i>Seferi</i></b>  📲 Live ⏰ Start time 📺 TV 👥 Undercard 🎰 Betting 🎱 Prediction #️⃣ #FurySeferi  Big fight preview👇 https://t.co/CPOxAXRdYi</br>Category: satisfied</br>Created at: Sat Jun 09 02:22:07 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[60]['liked'] = 0;
+markers[60]['retweeted'] = 0;
+markers[60]['created_at'] = "Sat Jun 09 02:22:07 +0000 2018";
+var datetime = new Date("Sat Jun 09 02:22:07 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[61] = new google.maps.LatLng(56.6746514953,-1.79344513173);
+markers[61] = new google.maps.Marker({position: latlngs[61], map: map, url: "https://twitter.com/statuses/1005212361807073282",title:" Just saw >>Fury<</>>Seferi<< weigh in!!! WTF come on this has got to be a joke. For a come back fight your opponent shouldn… https://t.co/b0iPth1LNh "});
+markers[61]['uns_icon'] = "img/angry.png";
+markers[61]['sel_icon'] = "img/angry_sel.png";
+markers[61].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[61]['emo'] = "angry";
+markers[61]['html_text'] = "Tweet: Just saw <b><i>Fury</i></b>/<b><i>Seferi</i></b> weigh in!!! WTF come on this has got to be a joke. For a come back fight your opponent shouldn… https://t.co/b0iPth1LNh</br>Category: angry</br>Created at: Fri Jun 08 22:17:57 +0000 2018</br>Place: Aberdeen Scotland  latitude:57.1482429 longitude:-2.0928095</br>Likes: 0</br>Retweets: 0";
+markers[61]['liked'] = 0;
+markers[61]['retweeted'] = 0;
+markers[61]['created_at'] = "Fri Jun 08 22:17:57 +0000 2018";
+var datetime = new Date("Fri Jun 08 22:17:57 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[62] = new google.maps.LatLng(52.3034567149,-1.02183766035);
+markers[62] = new google.maps.Marker({position: latlngs[62], map: map, url: "https://twitter.com/statuses/1005179896224780290",title:" Glad to have him back, but I’m struggling to think of a bigger (worse?) recent procession-as-main-event than >>Fury<<-S… https://t.co/IAsja5lrFd "});
+markers[62]['uns_icon'] = "img/disapointed.png";
+markers[62]['sel_icon'] = "img/disapointed_sel.png";
+markers[62].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[62]['emo'] = "disapointed";
+markers[62]['html_text'] = "Tweet: Glad to have him back  but I’m struggling to think of a bigger (worse?) recent procession-as-main-event than <b><i>Fury</i></b>-S… https://t.co/IAsja5lrFd</br>Category: disapointed</br>Created at: Fri Jun 08 20:08:57 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[62]['liked'] = 0;
+markers[62]['retweeted'] = 0;
+markers[62]['created_at'] = "Fri Jun 08 20:08:57 +0000 2018";
+var datetime = new Date("Fri Jun 08 20:08:57 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[63] = new google.maps.LatLng(6.49857318257,0.0806162508288);
+markers[63] = new google.maps.Marker({position: latlngs[63], map: map, url: "https://twitter.com/statuses/1005110717299740673",title:" Tyson >>Fury<< comeback fight this weekend 🥊 💥 🥊 Tyson >>Fury<< 🆚 >>Seferi<< Sefer 🥊 💥 . Bet on BOXING ➡️… https://t.co/Z7GGybUBXi "});
+markers[63]['uns_icon'] = "img/fear.png";
+markers[63]['sel_icon'] = "img/fear_sel.png";
+markers[63].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[63]['emo'] = "fear";
+markers[63]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> comeback fight this weekend 🥊 💥 🥊 Tyson <b><i>Fury</i></b> 🆚 <b><i>Seferi</i></b> Sefer 🥊 💥 . Bet on BOXING ➡️… https://t.co/Z7GGybUBXi</br>Category: fear</br>Created at: Fri Jun 08 15:34:03 +0000 2018</br>Place: Accra  Ghana latitude:5.5600141 longitude:-0.2057437</br>Likes: 0</br>Retweets: 0";
+markers[63]['liked'] = 0;
+markers[63]['retweeted'] = 0;
+markers[63]['created_at'] = "Fri Jun 08 15:34:03 +0000 2018";
+var datetime = new Date("Fri Jun 08 15:34:03 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[64] = new google.maps.LatLng(53.7058054554,-3.55434061913);
+markers[64] = new google.maps.Marker({position: latlngs[64], map: map, url: "https://twitter.com/statuses/1005108964357492737",title:" Tyson >>Fury<< makes a return to the ring for the first time in just under three years when he takes on Sefer >>Seferi<< in… https://t.co/nqDNSDxC99 "});
+markers[64]['uns_icon'] = "img/disapointed.png";
+markers[64]['sel_icon'] = "img/disapointed_sel.png";
+markers[64].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[64]['emo'] = "disapointed";
+markers[64]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> makes a return to the ring for the first time in just under three years when he takes on Sefer <b><i>Seferi</i></b> in… https://t.co/nqDNSDxC99</br>Category: disapointed</br>Created at: Fri Jun 08 15:27:05 +0000 2018</br>Place: UK latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[64]['liked'] = 0;
+markers[64]['retweeted'] = 0;
+markers[64]['created_at'] = "Fri Jun 08 15:27:05 +0000 2018";
+var datetime = new Date("Fri Jun 08 15:27:05 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[65] = new google.maps.LatLng(52.3462353131,0.1980610346);
+markers[65] = new google.maps.Marker({position: latlngs[65], map: map, url: "https://twitter.com/statuses/1005108964273672198",title:" Tyson >>Fury<< makes a return to the ring for the first time in just under three years when he takes on Sefer >>Seferi<< in… https://t.co/lnsAJG8mLw "});
+markers[65]['uns_icon'] = "img/disapointed.png";
+markers[65]['sel_icon'] = "img/disapointed_sel.png";
+markers[65].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[65]['emo'] = "disapointed";
+markers[65]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> makes a return to the ring for the first time in just under three years when he takes on Sefer <b><i>Seferi</i></b> in… https://t.co/lnsAJG8mLw</br>Category: disapointed</br>Created at: Fri Jun 08 15:27:05 +0000 2018</br>Place: England  United Kingdom latitude:52.7954791 longitude:-0.540240236617432</br>Likes: 0</br>Retweets: 0";
+markers[65]['liked'] = 0;
+markers[65]['retweeted'] = 0;
+markers[65]['created_at'] = "Fri Jun 08 15:27:05 +0000 2018";
+var datetime = new Date("Fri Jun 08 15:27:05 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[66] = new google.maps.LatLng(53.8337412105,-3.64944319599);
+markers[66] = new google.maps.Marker({position: latlngs[66], map: map, url: "https://twitter.com/statuses/1005083805361868800",title:" Tyson >>Fury<< vs Sefer >>Seferi<< fight, live stream, TV channel, odds, tickets and undercard https://t.co/3aLN66fmqD "});
+markers[66]['uns_icon'] = "img/satisfied.png";
+markers[66]['sel_icon'] = "img/satisfied_sel.png";
+markers[66].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[66]['emo'] = "satisfied";
+markers[66]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> vs Sefer <b><i>Seferi</i></b> fight  live stream  TV channel  odds  tickets and undercard https://t.co/3aLN66fmqD</br>Category: satisfied</br>Created at: Fri Jun 08 13:47:07 +0000 2018</br>Place: Standish  England latitude:53.5863262 longitude:-2.6635746</br>Likes: 0</br>Retweets: 0";
+markers[66]['liked'] = 0;
+markers[66]['retweeted'] = 0;
+markers[66]['created_at'] = "Fri Jun 08 13:47:07 +0000 2018";
+var datetime = new Date("Fri Jun 08 13:47:07 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[67] = new google.maps.LatLng(52.3058549681,-0.866304747924);
+markers[67] = new google.maps.Marker({position: latlngs[67], map: map, url: "https://twitter.com/statuses/1005049625387192320",title:" 🥊Check out my Fight Preview &amp; Prediction for @ProBoxingFans on Tyson >>Fury<< s comeback this Saturday night! 🥊💥💥… https://t.co/mHcUnLL9za "});
+markers[67]['uns_icon'] = "img/satisfied.png";
+markers[67]['sel_icon'] = "img/satisfied_sel.png";
+markers[67].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[67]['emo'] = "satisfied";
+markers[67]['html_text'] = "Tweet: 🥊Check out my Fight Preview &amp  Prediction for @ProBoxingFans on Tyson <b><i>Fury</i></b> s comeback this Saturday night! 🥊💥💥… https://t.co/mHcUnLL9za</br>Category: satisfied</br>Created at: Fri Jun 08 11:31:18 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[67]['liked'] = 0;
+markers[67]['retweeted'] = 0;
+markers[67]['created_at'] = "Fri Jun 08 11:31:18 +0000 2018";
+var datetime = new Date("Fri Jun 08 11:31:18 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[68] = new google.maps.LatLng(51.9556429419,-0.465992904914);
+markers[68] = new google.maps.Marker({position: latlngs[68], map: map, url: "https://twitter.com/statuses/1004762007822917638",title:" Check out our writer @Ryan_Channer s Fight Preview &amp; Prediction for this Saturday night showdown between Tyson >>Fury<<… https://t.co/WFZE5ruDRc "});
+markers[68]['uns_icon'] = "img/satisfied.png";
+markers[68]['sel_icon'] = "img/satisfied_sel.png";
+markers[68].setIcon({url:"img/satisfied.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[68]['emo'] = "satisfied";
+markers[68]['html_text'] = "Tweet: Check out our writer @Ryan_Channer s Fight Preview &amp  Prediction for this Saturday night showdown between Tyson <b><i>Fury</i></b>… https://t.co/WFZE5ruDRc</br>Category: satisfied</br>Created at: Thu Jun 07 16:28:24 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[68]['liked'] = 0;
+markers[68]['retweeted'] = 0;
+markers[68]['created_at'] = "Thu Jun 07 16:28:24 +0000 2018";
+var datetime = new Date("Thu Jun 07 16:28:24 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[69] = new google.maps.LatLng(55.3201281942,-3.83249774931);
+markers[69] = new google.maps.Marker({position: latlngs[69], map: map, url: "https://twitter.com/statuses/1004600265604059136",title:" James Metcalf To Face Nieto On >>Fury<<->>Seferi<< Card, Fortea Out https://t.co/7oga91wZ6L https://t.co/F4fYDrCv75 🐵 https://t.co/pDGavtZbr4 "});
+markers[69]['uns_icon'] = "img/angry.png";
+markers[69]['sel_icon'] = "img/angry_sel.png";
+markers[69].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[69]['emo'] = "angry";
+markers[69]['html_text'] = "Tweet: James Metcalf To Face Nieto On <b><i>Fury</i></b>-<b><i>Seferi</i></b> Card  Fortea Out https://t.co/7oga91wZ6L https://t.co/F4fYDrCv75 🐵 https://t.co/pDGavtZbr4</br>Category: angry</br>Created at: Thu Jun 07 05:45:42 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 0";
+markers[69]['liked'] = 0;
+markers[69]['retweeted'] = 0;
+markers[69]['created_at'] = "Thu Jun 07 05:45:42 +0000 2018";
+var datetime = new Date("Thu Jun 07 05:45:42 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[70] = new google.maps.LatLng(53.8109453967,-3.76416147111);
+markers[70] = new google.maps.Marker({position: latlngs[70], map: map, url: "https://twitter.com/statuses/1004599805107060736",title:" James Metcalf To Face Nieto On >>Fury<<->>Seferi<< Card, Fortea Out https://t.co/c1SYMVUXMY https://t.co/60bJBbpgti "});
+markers[70]['uns_icon'] = "img/angry.png";
+markers[70]['sel_icon'] = "img/angry_sel.png";
+markers[70].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[70]['emo'] = "angry";
+markers[70]['html_text'] = "Tweet: James Metcalf To Face Nieto On <b><i>Fury</i></b>-<b><i>Seferi</i></b> Card  Fortea Out https://t.co/c1SYMVUXMY https://t.co/60bJBbpgti</br>Category: angry</br>Created at: Thu Jun 07 05:43:52 +0000 2018</br>Place: United Kingdom latitude:54.7023545 longitude:-3.2765752</br>Likes: 0</br>Retweets: 1";
+markers[70]['liked'] = 0;
+markers[70]['retweeted'] = 1;
+markers[70]['created_at'] = "Thu Jun 07 05:43:52 +0000 2018";
+var datetime = new Date("Thu Jun 07 05:43:52 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[71] = new google.maps.LatLng(52.3704061579,-0.00708674047697);
+markers[71] = new google.maps.Marker({position: latlngs[71], map: map, url: "https://twitter.com/statuses/1004500806530367488",title:" @BoxingKingdom14 @IFLTV According to >>Fury<<, >>Seferi<< is the right man to give him rounds ! Really !? 🤔 "});
+markers[71]['uns_icon'] = "img/disapointed.png";
+markers[71]['sel_icon'] = "img/disapointed_sel.png";
+markers[71].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[71]['emo'] = "disapointed";
+markers[71]['html_text'] = "Tweet: @BoxingKingdom14 @IFLTV According to <b><i>Fury</i></b>  <b><i>Seferi</i></b> is the right man to give him rounds ! Really !? 🤔</br>Category: disapointed</br>Created at: Wed Jun 06 23:10:29 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[71]['liked'] = 0;
+markers[71]['retweeted'] = 0;
+markers[71]['created_at'] = "Wed Jun 06 23:10:29 +0000 2018";
+var datetime = new Date("Wed Jun 06 23:10:29 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[72] = new google.maps.LatLng(53.8150189782,-2.38653916868);
+markers[72] = new google.maps.Marker({position: latlngs[72], map: map, url: "https://twitter.com/statuses/1004494864124469248",title:" Tyson >>Fury<< could be set to fight Manuel Charr for WBA regular title later this year https://t.co/amrXB8X56K "});
+markers[72]['uns_icon'] = "img/disapointed.png";
+markers[72]['sel_icon'] = "img/disapointed_sel.png";
+markers[72].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[72]['emo'] = "disapointed";
+markers[72]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> could be set to fight Manuel Charr for WBA regular title later this year https://t.co/amrXB8X56K</br>Category: disapointed</br>Created at: Wed Jun 06 22:46:52 +0000 2018</br>Place: Standish  England latitude:53.5863262 longitude:-2.6635746</br>Likes: 0</br>Retweets: 0";
+markers[72]['liked'] = 0;
+markers[72]['retweeted'] = 0;
+markers[72]['created_at'] = "Wed Jun 06 22:46:52 +0000 2018";
+var datetime = new Date("Wed Jun 06 22:46:52 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[73] = new google.maps.LatLng(53.8051939314,-2.69105115801);
+markers[73] = new google.maps.Marker({position: latlngs[73], map: map, url: "https://twitter.com/statuses/1004475600097239041",title:" Tyson >>Fury<< could be set to fight Manuel Charr for WBA regular title later this year. #Boxing https://t.co/IJhf27cQtf "});
+markers[73]['uns_icon'] = "img/disapointed.png";
+markers[73]['sel_icon'] = "img/disapointed_sel.png";
+markers[73].setIcon({url:"img/disapointed.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[73]['emo'] = "disapointed";
+markers[73]['html_text'] = "Tweet: Tyson <b><i>Fury</i></b> could be set to fight Manuel Charr for WBA regular title later this year. #Boxing https://t.co/IJhf27cQtf</br>Category: disapointed</br>Created at: Wed Jun 06 21:30:19 +0000 2018</br>Place: Manchester  England. latitude:53.4791301 longitude:-2.2441009</br>Likes: 0</br>Retweets: 1";
+markers[73]['liked'] = 0;
+markers[73]['retweeted'] = 1;
+markers[73]['created_at'] = "Wed Jun 06 21:30:19 +0000 2018";
+var datetime = new Date("Wed Jun 06 21:30:19 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[74] = new google.maps.LatLng(52.5059013787,0.736369759143);
+markers[74] = new google.maps.Marker({position: latlngs[74], map: map, url: "https://twitter.com/statuses/1004419590846341121",title:" As bad as the >>Fury<< >>Seferi<< build up has been, let’s all take a minute to think of the depths of god awful shitness F… https://t.co/9ANUmZD4ja "});
+markers[74]['uns_icon'] = "img/angry.png";
+markers[74]['sel_icon'] = "img/angry_sel.png";
+markers[74].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[74]['emo'] = "angry";
+markers[74]['html_text'] = "Tweet: As bad as the <b><i>Fury</i></b> <b><i>Seferi</i></b> build up has been  let’s all take a minute to think of the depths of god awful shitness F… https://t.co/9ANUmZD4ja</br>Category: angry</br>Created at: Wed Jun 06 17:47:46 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 1";
+markers[74]['liked'] = 0;
+markers[74]['retweeted'] = 1;
+markers[74]['created_at'] = "Wed Jun 06 17:47:46 +0000 2018";
+var datetime = new Date("Wed Jun 06 17:47:46 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[75] = new google.maps.LatLng(52.1883943783,0.078712580843);
+markers[75] = new google.maps.Marker({position: latlngs[75], map: map, url: "https://twitter.com/statuses/1004100517562372097",title:" @TheBoxingMadMan @boxing_social @TheDukeWatkins @Lawrence_tko @leosantacruz2 @ErrolSpenceJr Well, no. The show is c… https://t.co/qPw9w19okv "});
+markers[75]['uns_icon'] = "img/angry.png";
+markers[75]['sel_icon'] = "img/angry_sel.png";
+markers[75].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[75]['emo'] = "angry";
+markers[75]['html_text'] = "Tweet: @TheBoxingMadMan @boxing_social @TheDukeWatkins @Lawrence_tko @leosantacruz2 @ErrolSpenceJr Well  no. The show is c… https://t.co/qPw9w19okv</br>Category: angry</br>Created at: Tue Jun 05 20:39:53 +0000 2018</br>Place: Bedford/London latitude:51.4427243 longitude:-0.1493607</br>Likes: 0</br>Retweets: 0";
+markers[75]['liked'] = 0;
+markers[75]['retweeted'] = 0;
+markers[75]['created_at'] = "Tue Jun 05 20:39:53 +0000 2018";
+var datetime = new Date("Tue Jun 05 20:39:53 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[76] = new google.maps.LatLng(51.696929896,-0.0763322352665);
+markers[76] = new google.maps.Marker({position: latlngs[76], map: map, url: "https://twitter.com/statuses/1004086097364865026",title:" @frankwarren_tv @Tyson_Fury >>Seferi<< looked an almighty bum "});
+markers[76]['uns_icon'] = "img/angry.png";
+markers[76]['sel_icon'] = "img/angry_sel.png";
+markers[76].setIcon({url:"img/angry.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[76]['emo'] = "angry";
+markers[76]['html_text'] = "Tweet: @frankwarren_tv @Tyson_Fury <b><i>Seferi</i></b> looked an almighty bum</br>Category: angry</br>Created at: Tue Jun 05 19:42:35 +0000 2018</br>Place: London  England latitude:51.5073219 longitude:-0.1276473</br>Likes: 0</br>Retweets: 0";
+markers[76]['liked'] = 0;
+markers[76]['retweeted'] = 0;
+markers[76]['created_at'] = "Tue Jun 05 19:42:35 +0000 2018";
+var datetime = new Date("Tue Jun 05 19:42:35 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+latlngs[77] = new google.maps.LatLng(53.4706638616,-1.42950754659);
+markers[77] = new google.maps.Marker({position: latlngs[77], map: map, url: "https://twitter.com/statuses/1003999639119556609",title:" @frankwarren_tv @Tyson_Fury >>Seferi<< is a complete joke, muhammad Ali was out for 3yr 9m came back and fought Quarry… https://t.co/sBaVlfM4Lx "});
+markers[77]['uns_icon'] = "img/fear.png";
+markers[77]['sel_icon'] = "img/fear_sel.png";
+markers[77].setIcon({url:"img/fear.png",size:new google.maps.Size(zm*10, zm*10), scaledSize:new google.maps.Size(zm*10, zm*10), origin: new google.maps.Point(0, 0), anchor:new google.maps.Point(0, 0)});
+markers[77]['emo'] = "fear";
+markers[77]['html_text'] = "Tweet: @frankwarren_tv @Tyson_Fury <b><i>Seferi</i></b> is a complete joke  muhammad Ali was out for 3yr 9m came back and fought Quarry… https://t.co/sBaVlfM4Lx</br>Category: fear</br>Created at: Tue Jun 05 13:59:02 +0000 2018</br>Place: England  United Kingdom latitude:52.7954791 longitude:-0.540240236617432</br>Likes: 0</br>Retweets: 1";
+markers[77]['liked'] = 0;
+markers[77]['retweeted'] = 1;
+markers[77]['created_at'] = "Tue Jun 05 13:59:02 +0000 2018";
+var datetime = new Date("Tue Jun 05 13:59:02 +0000 2018");
+datetime.setMilliseconds(0);
+datetime.setSeconds(0);
+datetimestr = datetime.toString();
+if (freq_chart_data[datetimestr] == undefined) {
+freq_chart_data[datetimestr] = 1;
+}	else {
+freq_chart_data[datetimestr] += 1;}
+for ( i = 0; i < markers.length; i++ ) {
+google.maps.event.addListener(markers[i], "dblclick", function() {
+this.setZIndex(google.maps.Marker.MAX_ZINDEX+1);
+window.open(this.url, "_blank", "");});
+google.maps.event.addListener(markers[i], "click", function() {
+this.setZIndex(google.maps.Marker.MAX_ZINDEX+1);
+(new google.maps.InfoWindow({content:this['html_text']})).open(map,this);
+});
+google.maps.event.addListener(markers[i], "mouseover", function() {
+var zm = map.getZoom();
+if (curr_marker != null) {
+var icon = curr_marker.getIcon();
+icon.url = curr_marker['uns_icon'];
+curr_marker.setIcon(icon); }
+var icon1 = this.getIcon();
+icon1.url = this['sel_icon'];
+this.setIcon(icon1);
+this.setZIndex(google.maps.Marker.MAX_ZINDEX+1);
+curr_marker = this; });
+}
+google.maps.event.addListener(map, "zoom_changed", function() {
+var zm = map.getZoom();
+for ( i = 0; i < markers.length; i++ ) {
+var icon = markers[i].getIcon();
+icon.size = new google.maps.Size(zm*10, zm*10);
+icon.scaledSize = new google.maps.Size(zm*10, zm*10);
+markers[i].setIcon(icon);
+}
+})
+var rectangle = new google.maps.Rectangle({
+strokeColor: "#FF0000", strokeOpacity: 0.6, strokeWeight: 2, fillColor: "#FF0000",
+fillOpacity: 0.05, map: map, bounds: {
+ north: 69.7181, south: -55.1789,
+ east: 176.0000, west: -132.0000
+}});
+var latlngbounds = new google.maps.LatLngBounds();
+for (var i = 0; i < latlngs.length; i++) {latlngbounds.extend(latlngs[i]);}
+map.fitBounds(latlngbounds);
+var legend_div = document.createElement('legend');
+legend_div.id = 'legend';
+map.controls[google.maps.ControlPosition.RIGHT_TOP].push(legend_div);
+var div = document.createElement('div');
+div.innerHTML = '<h3>Tweets emotions</h3>Query: <b>Fury+Seferi</b></br>Location: <b>World</b><br/>East: <b>176.0000</b><br/>West: <b>-132.0000</b><br/>North: <b>69.7181</b><br/>South: <b>-55.1789</b></br>Time from: <b>2018-06-05, 13:59:02 </b></br>Time to: <b>2018-06-10, 09:32:02 </b></br>'
+legend_div.appendChild(div);
+var div = document.createElement('div');
+div.innerHTML = '<hr><input type="checkbox" id="hideloved" checked=true onClick="showhide()"><img src="img/loved.png" height="20" width="20"><label id="l_loved"> loved (0/0/0)</label></br><input type="checkbox" id="hideangry" checked=true onClick="showhide()"><img src="img/angry.png" height="20" width="20"><label id="l_angry"> angry (28/0/0)</label></br><input type="checkbox" id="hidesatisfied" checked=true onClick="showhide()"><img src="img/satisfied.png" height="20" width="20"><label id="l_satisfied"> satisfied (20/0/0)</label></br><input type="checkbox" id="hidesad" checked=true onClick="showhide()"><img src="img/sad.png" height="20" width="20"><label id="l_sad"> sad (4/0/0)</label></br><input type="checkbox" id="hidedisapointed" checked=true onClick="showhide()"><img src="img/disapointed.png" height="20" width="20"><label id="l_disapointed"> disapointed (15/0/0)</label></br><input type="checkbox" id="hidefear" checked=true onClick="showhide()"><img src="img/fear.png" height="20" width="20"><label id="l_fear"> fear (9/0/0)</label></br><input type="checkbox" id="hidehappy" checked=true onClick="showhide()"><img src="img/happy.png" height="20" width="20"><label id="l_happy"> happy (2/0/0)</label></br>'
+legend_div.appendChild(div);
+var div = document.createElement('div');
+div.innerHTML = '<hr><form id="popular"><input type="radio" id="radio_popular" name="radio_popular" CHECKED value="all" onClick="showhide()"><label id="l_all"> All (78)</label></br><input type="radio" id="radio_popular" name="radio_popular" value="popular" onClick="showhide()"><label id="l_popular"> Popular (0)</label></br><input type="radio" id="radio_popular" name="radio_popular" value="viral" onClick="showhide()"><label id="l_viral"> Viral (0)</label></br></br><i>Popular = more than 10 likes</br>Viral = more than 1000 likes</i></br></br><i>Hover = Tweet tooltip</br>Click = Tweet Info</br>DblClick = Open Tweet</i></form>'
+legend_div.appendChild(div);
+}
+function ispopular(marker) {
+	return marker['liked']>10
+}
+function isviral(marker) {
+	return marker['liked']>1000
+}
+function showhide() {
+var popular = document.getElementById("popular");
+var radios = popular.elements["radio_popular"];
+var pop = null;
+for(var i=0;i<radios.length;i++) {
+if(radios[i].checked == true) { pop = radios[i].value; }
+}
+var emo_arr = {}
+emo_arr["loved"] = document.getElementById("hideloved").checked;
+emo_arr["angry"] = document.getElementById("hideangry").checked;
+emo_arr["satisfied"] = document.getElementById("hidesatisfied").checked;
+emo_arr["sad"] = document.getElementById("hidesad").checked;
+emo_arr["disapointed"] = document.getElementById("hidedisapointed").checked;
+emo_arr["fear"] = document.getElementById("hidefear").checked;
+emo_arr["happy"] = document.getElementById("hidehappy").checked;
+nr_all = 0;
+nr_popular = 0;
+nr_viral = 0;
+for ( i = 0; i < markers.length; i++ ) {
+  emo = markers[i]["emo"];
+  show = emo_arr[emo] && ((pop=="viral" && isviral(markers[i])) || (pop=="popular" && ispopular(markers[i])) || pop=="all");
+  if (emo_arr[emo]) { nr_all += 1; }
+  if (show && ispopular(markers[i])) { nr_popular += 1; }
+  if (show && isviral(markers[i])) { nr_viral += 1; }
+	markers[i].setVisible(show);
+}
+document.getElementById("l_all").innerHTML = ' All ('+nr_all+')';
+document.getElementById("l_popular").innerHTML = ' Popular ('+nr_popular+')';
+document.getElementById("l_viral").innerHTML = ' Viral ('+nr_viral+')';
+}
+function freq_chart() {
+  var freq_chart_datatable = new google.visualization.DataTable();
+  freq_chart_datatable.addColumn('datetime', 'Time of Day');
+  freq_chart_datatable.addColumn('number', 'Tweets Frequency');
+  var sortedkeys = Object.keys(freq_chart_data).sort();
+  for(var i in sortedkeys){
+    key = sortedkeys[i];
+    var value = freq_chart_data[key];
+    freq_chart_datatable.addRow([new Date(key), value])
+  }
+  var freq_chart_div = document.createElement('div');
+  freq_chart_div.id = 'freq_chart_div';
+  new google.visualization.LineChart(freq_chart_div)
+    .draw(freq_chart_datatable, { curveType : 'function', width : 500, height : 400, vAxis : { maxValue : 10 } });
+  var infowindow = new google.maps.InfoWindow();
+  infowindow.setContent(freq_chart_div);
+  infowindow.setPosition(map.getCenter());  infowindow.open(map); }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbJZQyV7R2w7GWkvZ86IwXrnlAq5P6Ek8&callback=initMap">
+</script></body></html>
